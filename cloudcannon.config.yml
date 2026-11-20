@@ -1,0 +1,21 @@
+# CloudCannon configuration for a plain HTML site
+
+# Source files repo-வின் root-ல் உள்ளன
+source: ""
+
+# Image uploads எங்கே சேமிக்க வேண்டும்
+paths:
+  uploads: assets
+  static: ""
+
+# Client-க்கு Visual Editor மட்டும் காட்டு
+_enabled_editors:
+  - visual
+
+# Pages collection: root-ல் உள்ள HTML files
+collections_config:
+  pages:
+    path: ""
+    output: true
+    name: Pages
+    icon: wysiwyg
