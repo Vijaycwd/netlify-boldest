@@ -1,21 +1,26 @@
-# CloudCannon configuration for a plain HTML site
-
-# Source files repo-வின் root-ல் உள்ளன
-source: ""
-
-# Image uploads எங்கே சேமிக்க வேண்டும்
 paths:
   uploads: assets
-  static: ""
-
-# Client-க்கு Visual Editor மட்டும் காட்டு
-_enabled_editors:
-  - visual
-
-# Pages collection: root-ல் உள்ள HTML files
+  uploads_use_relative_path: false
+  static: ''
 collections_config:
   pages:
-    path: ""
-    output: true
+    path: ''
     name: Pages
     icon: wysiwyg
+    disable_url: false
+    include_developer_files: false
+    preview:
+      text:
+      subtext:
+      icon:
+      icon_color:
+      icon_background_color:
+      image:
+      metadata:
+      gallery:
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+_enabled_editors:
+  - visual
+timezone: Etc/UTC
